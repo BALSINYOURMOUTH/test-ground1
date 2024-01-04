@@ -2,15 +2,24 @@ body {
     background-color: white;
 }
 
-button {
+#btn {
     border: none;
     
+}
+
+#btn:active {
+    font-size: 1.2em;
 }
 
 .menu {
     text-align: right;
 }
 
+section {
+    background-color: #d9d0d0;
+}
+
 #1text {
-    font-size: .75;
+    font-size: .65em;
+    text-decoration: none;
 }
