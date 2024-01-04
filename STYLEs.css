@@ -4,8 +4,9 @@ body {
 
 button {
     border: none;
+    
 }
 
 .menu {
-    align-items: right;
+    text-align: right;
 }
