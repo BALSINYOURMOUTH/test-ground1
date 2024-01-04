@@ -16,7 +16,9 @@ body {
 }
 
 section {
+    left:auto;
     background-color: #d9d0d0;
+    width: 90%;
 }
 
 #1text {
