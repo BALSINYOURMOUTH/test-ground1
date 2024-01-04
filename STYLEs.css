@@ -7,7 +7,7 @@ body {
     
 }
 
-#btn:active {
+.active {
     font-size: 1.2em;
 }
 
