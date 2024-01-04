@@ -19,10 +19,10 @@ function home() {
 
 function about() {
     console.log("about function called");
-    document.getElementById("port").innerHTML = "<h1>testing <span id='1text'>about</h1>"
+    document.getElementById("port").innerHTML = "<h1>testing <span id='1text'>about</span></h1>"
 }
 
 function contact() {
     console.log("contact function called");
-    document.getElementById("port").innerHTML =  "<h1>testing <span id='1text'>contacts</h1>"
+    document.getElementById("port").innerHTML =  "<h1>testing <span id='1text'>contacts</span></h1>"
 }
