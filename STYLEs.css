@@ -45,7 +45,7 @@ section {
     max-width: 300px;
     height: auto;
     margin: 5px;
-    display: inline
+    display: inline-block;
 }
 
 img {
@@ -55,4 +55,5 @@ img {
 .imgt {
     font-size: 3em;
     top: 150px;
+    position: absolute;
 }
