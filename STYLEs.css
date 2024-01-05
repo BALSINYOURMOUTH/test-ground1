@@ -6,6 +6,7 @@ body {
     height: 100vh;
     margin: 0;
     color: white;
+    overflow: hidden;
 }
 
 #btn {
@@ -40,8 +41,18 @@ section {
     text-align: center;
 }
 
-.homepageimg {
+.hpimgcon {
     max-width: 300px;
     height: auto;
     margin: 5px;
+    display: inline
+}
+
+img {
+    width: 100%;
+}
+
+.imgt {
+    font-size: 3em;
+    top: 150px;
 }
