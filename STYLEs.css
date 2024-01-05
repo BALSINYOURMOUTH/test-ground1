@@ -22,17 +22,15 @@ section {
 }
 
 #1text {
-    font-size: .65em;
+    font-size: .55em;
     text-decoration: none;
 }
 
 #img1, #img2, #img3 {
-    width: 300px;
+    width: 100%;
     
 }
 
-#img2 {
-    left: auto;
-    right:auto;
+.imgcon {
+    width: 300px;
 }
-
