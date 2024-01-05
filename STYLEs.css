@@ -25,18 +25,14 @@ section {
     text-decoration: none;
 }
 
-.imgcon{
-    width: 300px;
-    margin: 3px;
-    float: left;
-}
-
 #img1, #img2, #img3 {
-    width: 100%;
+    width: 300px;
     
 }
 
 .homepage {
-    margin: auto;
-    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
 }
