@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: #121212;
 }
 
 #btn {
@@ -13,6 +13,7 @@ body {
 
 .menu {
     text-align: right;
+    background-color: black;
 }
 
 section {
@@ -30,9 +31,8 @@ section {
     
 }
 
-.homepage {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    align-items: center;
+#img2 {
+    left: auto;
+    right:auto;
 }
+
