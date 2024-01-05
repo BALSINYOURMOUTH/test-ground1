@@ -4,7 +4,6 @@ body {
 
 #btn {
     border: none;
-    
 }
 
 .active {
@@ -26,11 +25,16 @@ section {
     text-decoration: none;
 }
 
-#img1, #img2, #img3 {
-    width: 100%;
-    
-}
-
 .imgcon {
     width: 300px;
+    display: inline-block; /* To make the images display next to each other */
+}
+
+#img1, #img2, #img3 {
+    width: 100%;
+    display: block; /* To prevent default inline spacing */
+}
+
+.centered {
+    text-align: center; /* To center the middle image */
 }
