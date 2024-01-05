@@ -26,13 +26,14 @@ section {
 }
 
 .imgcon{
-    width: 350px;
+    width: 300px;
     margin: 3px;
+    float: left;
 }
 
 #img1, #img2, #img3 {
     width: 100%;
-    float: left;
+    
 }
 
 .homepage {
