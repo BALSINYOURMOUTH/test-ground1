@@ -17,7 +17,7 @@ body {
 
 section {
     width: 100%;
-    padding: 10px, 20px, 0px, 10px;
+    padding: 10px;
 }
 
 #1text {
@@ -25,18 +25,16 @@ section {
     text-decoration: none;
 }
 
-img{
-    width: 250px;
+.imgcon{
+    width: 350px;
+    margin: 3px;
 }
 
-#img1 {
-    float: right;
+#img1, #img2, #img3 {
+    width: 100%;
 }
 
-#img2 {
-    float: left;
-}
-
-#img {
-    float: right;
+.homepage {
+    position: absolute;
+    left: 50%;
 }
