@@ -1,5 +1,10 @@
 body {
     background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
 #btn {
@@ -25,16 +30,11 @@ section {
     text-decoration: none;
 }
 
-.imgcon {
-    width: 300px;
-    display: inline-block; /* To make the images display next to each other */
+.homepage {
+    text-align: center;
 }
 
-#img1, #img2, #img3 {
-    width: 100%;
-    display: block; /* To prevent default inline spacing */
-}
-
-.centered {
-    text-align: center; /* To center the middle image */
+.homepageimg {
+    max-width: 300px;
+    height: auto;
 }
