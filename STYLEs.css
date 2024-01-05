@@ -16,12 +16,27 @@ body {
 }
 
 section {
-    left:auto;
-    background-color: #d9d0d0;
-    width: 90%;
+    width: 100%;
+    padding: 10px, 20px, 0px, 10px;
 }
 
 #1text {
     font-size: .65em;
     text-decoration: none;
+}
+
+img{
+    width: 250px;
+}
+
+#img1 {
+    float: right;
+}
+
+#img2 {
+    float: left;
+}
+
+#img {
+    float: right;
 }
