@@ -29,5 +29,5 @@ function contact() {
 
 function photo() {
 	console.log("photo function called");
-	document.getElementById("port").innerHTML = ""
+	document.getElementById("port").innerHTML = "testing photo"
 }
