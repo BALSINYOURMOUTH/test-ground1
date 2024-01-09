@@ -29,5 +29,18 @@ function contact() {
 
 function photo() {
 	console.log("photo function called");
-	document.getElementById("port").innerHTML = "testing photo"
+	document.getElementById("port").innerHTML = "testing photo";
+}
+
+function logo() {
+    console.log("logo function called");
+    document.getElementById("port").innerHTML = `  <h1>Hi <span id="1text">text here</span></h1>
+		
+    <div id="homepage">
+        
+        <div class="hpimgcon"><div class="imgt">Photos</div><img class="homepageimg" onclick="photo()" src="./images/IMG-20240105-WA0033.jpg" alt="img1"></div>
+        <div class="hpimgcon"><div class="imgt">About</div><img class="homepageimg" onclick="about()" src="./images/IMG-20240105-WA0035.jpg" alt="img2"></div>
+        <div class="hpimgcon"><div class="imgt">contact</div><img class="homepageimg" onclick="contact()" src="./images/IMG-20240104-WA0097.jpg" alt="img3"></div>
+       
+    </div>`
 }
