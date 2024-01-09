@@ -6,8 +6,10 @@ body {
     transition-duration: .3s;
 }
 
-#btn {
+.btn {
     border: none;
+	right:10px;
+	position:relative;
 }
 
 .active {
