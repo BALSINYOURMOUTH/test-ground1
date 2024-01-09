@@ -26,3 +26,8 @@ function contact() {
     console.log("contact function called");
     document.getElementById("port").innerHTML =  "<h1>testing <span id='1text'>contacts</span></h1>"
 }
+
+function photo() {
+	console.log("photo function called");
+	document.getElementById("port").innerHTML = ""
+}
