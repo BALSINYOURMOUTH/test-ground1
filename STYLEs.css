@@ -8,6 +8,10 @@ body {
     
 }
 
+#logo {
+    width:20px;
+}
+
 .btn {
     border: none;
 	right:10px;
