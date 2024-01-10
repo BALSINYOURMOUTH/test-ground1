@@ -1,7 +1,4 @@
 body {
-    background-image: url(./images/IMG-20240104-WA0099.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     margin: 0;
     color: white;
     overflow-x: hidden;
@@ -9,17 +6,27 @@ body {
 }
 
 #logo {
-    width:20px;
+	width: 200px;
+	height: auto;
+	display: flex;
+    margin: 0;
+}
+
+#logo:hover {
+    cursor: pointer;
 }
 
 .btn {
     border: none;
-	right:10px;
-	position:relative;
+	right: 10px;
+	position: relative;
+	font-size: 20px;
+	top: -50px;
+	margin: 5px;
 }
 
 .btn:hover {
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .active {
@@ -33,7 +40,7 @@ body {
     position: absolute;
 	top: 0px;
 	width: 100%;
-	height: 2em;
+	height: 71.71px;
 	padding-top: 5px;
 	transition-duration: 1s;
 	transition-timing-function: ease-in-out;
@@ -43,6 +50,9 @@ body {
 section {
     width: 100%;
     padding: 10px;
+    background-image: url(./images/IMG-20240104-WA0099.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #1text {
@@ -76,8 +86,9 @@ img {
 
 .imgt {
     font-size: 3em;
-    top: 150px;
-    position: relative;
+	top: 150px;
+	position: relative;
+	display: inline-block;
 }
 
 a {
