@@ -36,7 +36,8 @@ body {
 
 .menu {
     text-align: right;
-    background-color: black;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
     position: absolute;
 	top: 0px;
 	width: 100%;
