@@ -8,10 +8,12 @@ body {
 }
 
 #logo {
-	width: 200px;
+	width: 250px;
 	height: auto;
 	display: flex;
     margin: 0;
+    top: -4px;
+    left: 0px;
 }
 
 #logo:hover {
