@@ -22,9 +22,9 @@ body {
 
 .btn {
     border: none;
-	right: 10px;
+	right: 0px;
 	position: relative;
-	font-size: 20px;
+	font-size: 15px;
 	top: -50px;
 	margin: 5px;
 }
