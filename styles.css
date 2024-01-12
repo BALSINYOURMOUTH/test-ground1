@@ -8,6 +8,7 @@ body {
     overflow-x: hidden;
     background-image: url(./images/IMG-20240105-WA0050.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #logo {
