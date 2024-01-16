@@ -1,5 +1,10 @@
-body {
+/* Reset some default styles */
+body, h1, p, img {
     margin: 0;
+    padding: 0;
+}
+
+body {
     color: white;
     overflow-x: hidden;
 }
@@ -12,9 +17,9 @@ body {
 }
 
 #logo {
-	width: 250px;
-	height: auto;
-	display: flex;
+    width: 250px;
+    height: auto;
+    display: flex;
     margin: 0;
     top: -4px;
     left: 0px;
@@ -26,15 +31,15 @@ body {
 
 .btn {
     border: none;
-	right: 10px;
-	position: relative;
-	font-size: 20px;
-	top: -50px;
-	margin: 5px;
+    right: 10px;
+    position: relative;
+    font-size: 20px;
+    top: -50px;
+    margin: 5px;
 }
 
 .btn:hover {
-	cursor: pointer;
+    cursor: pointer;
 }
 
 .active {
@@ -47,20 +52,19 @@ body {
     background-color: transparent;
     backdrop-filter: blur(50px);
     position: absolute;
-	top: 0px;
-	width: 100%;
-	height: 71.71px;
-	padding-top: 5px;
-	transition-duration: 1s;
-	transition-timing-function: ease-in-out;
-	transition-delay: .5s;
+    top: 0px;
+    width: 100%;
+    height: 71.71px;
+    padding-top: 5px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .5s;
 }
 
 section {
     width: 100%;
     height: 94.3vh;
     padding: 10px;
-    
 }
 
 #1text {
@@ -77,26 +81,24 @@ section {
     height: auto;
     margin: 5px;
     display: inline-block;
-	transition-duration:.2s;
-
+    transition-duration: .2s;
 }
 
 .hpimgcon:hover {
-	scale:1.07;
-	cursor:pointer;
+    transform: scale(1.07);
+    cursor: pointer;
 }
 
 img {
     width: 100%;
-	height: 407px;
-	
+    height: 407px;
 }
 
 .imgt {
     font-size: 3em;
-	top: 150px;
-	position: relative;
-	display: inline-block;
+    top: 150px;
+    position: relative;
+    display: inline-block;
 }
 
 a {
