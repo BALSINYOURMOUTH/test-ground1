@@ -29,6 +29,19 @@ body {
     cursor: pointer;
 }
 
+img.btn {
+    height: 70px;
+}
+
+nav {
+    position: absolute;
+    right: 0px;
+}
+
+header {
+    content: cover;
+}
+
 .btn {
     border: none;
     right: 10px;
